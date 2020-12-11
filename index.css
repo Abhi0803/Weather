@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+  background-color: #224263;
+  background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+  /* opacity: 50%; */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  height: 1px;
+  margin-top: 10%;
+}
+
+.inputfield {
+  opacity: 20%;
+  height: 10%;
+  width: 50%;
+}
+
+.inputfield:hover {
+  opacity: 40%;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: calc(2px + 1.5vmin);
+  color: #e84a5f;
+  opacity: 80%;
+}
+
+:-moz-placeholder {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  color: #e84a5f;
+  opacity: 80%;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #333;
+  border-radius: 40px;
+  font-size: calc(5px + 2vmin);
+}
+
+/* This is for Input */
+form {
+  /* This bit sets up the horizontal layout */
+  display: flex;
+  flex-direction: row;
+  padding: 2px;
+  height: 75%;
+}
+
+input {
+  opacity: 150%;
+  flex-grow: 2;
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  display: none;
+}
+
+div {
+  color: #c06c84;
+  opacity: 550%;
+  background-color: #22426332;
+  font-family: "Patrick Hand", cursive;
+}
+
+/* This is for table */
+
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: none;
+}
+
+.inline {
+  display: inline;
+  opacity: 550%;
+}
+
+.inline-block {
+  margin-left: 0.5rem;
+  display: inline-block;
+  border-color: #333;
+  color: #b55400;
+  opacity: 550%;
+  font-weight: 900;
+  background-color: #22426352;
+}
+.table tbody + tbody {
+  border-top: 0px solid #333;
+  color: #c24d2c;
+  opacity: 550%;
+  font-weight: 900;
+}
+
+/* For Error Page */
+
+/* I. Containers */
+figure {
+  position: absolute;
+  top: 25%;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64em;
+}
+figcaption {
+  color: transparenttextures;
+  align-content: space-between;
+  flex-wrap: wrap;
+  height: 30%;
+  margin: 15%;
+}
+figcaption span:before,
+.sad-mac:before {
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  transform: translate(-1em, -1em);
+}
+figcaption span {
+  color: #fff;
+}
+.sr-text {
+  font-family: "Press Start 2P", cursive;
+}
+/* II. Sprites */
+/* 1. Sad Mac */
+.sad-mac {
+  background: transparenttextures;
+  margin: 0 auto 7em auto;
+  width: 23em;
+  height: 30em;
+}
+.sad-mac:before {
+  box-shadow: 1em 1em, 23em 1em, 4em 3em, 5em 3em, 6em 3em, 7em 3em, 8em 3em,
+    9em 3em, 10em 3em, 11em 3em, 12em 3em, 13em 3em, 14em 3em, 15em 3em,
+    16em 3em, 17em 3em, 18em 3em, 19em 3em, 20em 3em, 3em 4em, 21em 4em, 3em 5em,
+    21em 5em, 3em 6em, 7em 6em, 9em 6em, 15em 6em, 17em 6em, 21em 6em, 3em 7em,
+    8em 7em, 16em 7em, 21em 7em, 3em 8em, 7em 8em, 9em 8em, 15em 8em, 17em 8em,
+    21em 8em, 3em 9em, 21em 9em, 3em 10em, 10em 10em, 13em 10em, 21em 10em,
+    3em 11em, 11em 11em, 12em 11em, 21em 11em, 3em 12em, 21em 12em, 3em 13em,
+    10em 13em, 11em 13em, 12em 13em, 13em 13em, 14em 13em, 21em 13em, 3em 14em,
+    9em 14em, 15em 14em, 16em 14em, 21em 14em, 3em 15em, 17em 15em, 21em 15em,
+    3em 16em, 21em 16em, 4em 17em, 5em 17em, 6em 17em, 7em 17em, 8em 17em,
+    9em 17em, 10em 17em, 11em 17em, 12em 17em, 13em 17em, 14em 17em, 15em 17em,
+    16em 17em, 17em 17em, 18em 17em, 19em 17em, 20em 17em, 3em 22em, 4em 22em,
+    5em 22em, 14em 22em, 15em 22em, 16em 22em, 17em 22em, 18em 22em, 19em 22em,
+    20em 22em, 1em 27em, 2em 27em, 3em 27em, 4em 27em, 5em 27em, 6em 27em,
+    7em 27em, 8em 27em, 9em 27em, 10em 27em, 11em 27em, 12em 27em, 13em 27em,
+    14em 27em, 15em 27em, 16em 27em, 17em 27em, 18em 27em, 19em 27em, 20em 27em,
+    21em 27em, 22em 27em, 23em 27em, 1em 28em, 23em 28em, 1em 29em, 23em 29em,
+    1em 30em, 23em 30em;
+}
+
+/* III. Responsiveness */
+/* This cannot be smoothly done using viewport units; sprite pixels will look divided when font size is a floating point. */
+
+@media screen and (min-width: 320px) {
+  figure {
+    font-size: 7px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  figure {
+    font-size: 7px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  figure {
+    font-size: 8px;
+  }
+}
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: contents;
+}
