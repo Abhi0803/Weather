@@ -47,7 +47,7 @@ function App() {
   });
 
   const apiUrl = {
-    head: "http://api.openweathermap.org/data/2.5/weather?q=",
+    head: "https://api.openweathermap.org/data/2.5/weather?q=",
     foot: "&appid=056ceaec162d84d33b4cb29dee7ef1d5&units=metric",
   };
 
